@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SanteStays — cleaner turnover peace of mind for short-stay hosts</title>
+  <meta name="description" content="SanteStays is a warm, WhatsApp-native cleaner confirmation demo for short-stay hosts: calendar reminders, DONE/PROBLEM replies, and owner alerts before check-in." />
+  <link rel="canonical" href="https://santestays.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="SanteStays" />
+  <meta property="og:title" content="SanteStays — know the clean is done before check-in" />
+  <meta property="og:description" content="A friendly Asante Labs project for short-stay hosts: cleaner reminders, WhatsApp-style confirmations, and escalation when silence becomes risk." />
+  <meta property="og:url" content="https://santestays.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body class="safi-page">
+  <header class="nav safi-nav">
+    <a class="brand" href="./" aria-label="SanteStays home">
+      <span class="brand-mark safi-mark">S</span>
+      <span>SanteStays</span>
+    </a>
+    <nav>
+      <a href="#demo-story">Demo</a>
+      <a href="#where-this-is-at">Where this is at</a>
+      <a href="#host-needs">Setup</a>
+      <a href="./index.html">Asante Labs</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero safi-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Sante by Asante Labs · early test build</p>
+        <h1>Know the clean is sorted before the guest finds out.</h1>
+        <p class="lead">SanteStays watches the boring-but-critical handoff: checkout, cleaner reminder, DONE/PROBLEM reply, and a clear owner alert if the cleaner goes quiet before check-in.</p>
+        <div class="actions">
+          <a class="button primary" href="#demo-story">See the WhatsApp demo</a>
+          <a class="button secondary" href="#where-this-is-at">What’s real right now?</a>
+        </div>
+      </div>
+
+      <aside class="phone-card safi-phone" aria-label="SanteStays missed-clean example">
+        <div class="phone-top">SanteStays · Flat 2</div>
+        <div class="message bot-bubble">Hi Dana — Flat 2 checks out at 11:00 and the next guest arrives at 16:00. Please reply DONE once cleaned, or PROBLEM if there’s an issue.</div>
+        <div class="message quiet-bubble">No reply by 13:00…</div>
+        <div class="message warning">⚠️ Ariz — Flat 2 has no cleaning confirmation yet. Next guest arrives in 3 hours. Suggested action: call Dana now.</div>
+        <div class="message digest">Morning digest: 2 turnovers today · 1 all clear · 1 needs attention.</div>
+      </aside>
+    </section>
+
+    <section class="section split" id="demo-story">
+      <div>
+        <p class="eyebrow">The whole product, in one moment</p>
+        <h2>It notices silence before silence becomes a guest problem.</h2>
+      </div>
+      <div class="prose">
+        <p>Most turnover stress is not complicated. The cleaner probably knows what to do. The owner probably trusts them. The failure is the gap: nobody confirms, everyone assumes it’s fine, and the guest discovers the problem first.</p>
+        <p>SanteStays is deliberately narrow. It does not try to replace the host, the cleaner, a PMS, or a proper operations platform. It just makes sure the “is it done?” loop actually closes.</p>
+      </div>
+    </section>
+
+    <section class="section cards three" aria-label="Three message demo">
+      <article class="card featured safi-demo-card">
+        <span class="tag">1 · Reminder</span>
+        <h3>Cleaner gets a normal WhatsApp-style nudge.</h3>
+        <p class="quote">“Please reply DONE once cleaned, or PROBLEM if there’s an issue.”</p>
+      </article>
+      <article class="card safi-demo-card">
+        <span class="tag muted">2 · Status</span>
+        <h3>The reply is simple on purpose.</h3>
+        <p class="quote">DONE ✅ · PROBLEM · unclear · no reply</p>
+      </article>
+      <article class="card featured safi-demo-card">
+        <span class="tag">3 · Escalation</span>
+        <h3>If nobody answers, the owner gets time to act.</h3>
+        <p class="quote">“No confirmation yet. Guest arrives in 3 hours. Call Dana now.”</p>
+      </article>
+    </section>
+
+    <section class="section split warm-panel" id="where-this-is-at">
+      <div>
+        <p class="eyebrow">Where this is at</p>
+        <h2>This is an early build, not a pretend finished SaaS.</h2>
+      </div>
+      <div class="prose">
+        <p>The calendar reading and message generation are working locally. The demo can show a missed-clean escalation, a confirmed clean, and owner digest examples.</p>
+        <p>The next useful step is testing it with someone who can say, honestly, “that is how it happens” or “no, this bit is fake.” Feedback shapes the product before it becomes a paid service.</p>
+        <p><strong>No fake testimonials. No made-up client logos. No “AI platform” theatre.</strong> Just a narrow workflow, shown clearly.</p>
+      </div>
+    </section>
+
+    <section class="section" id="host-needs">
+      <div class="section-head">
+        <p class="eyebrow">What a host would need to test it</p>
+        <h2>Three simple ingredients.</h2>
+      </div>
+      <div class="flow">
+        <div class="flow-item"><span>1</span><h3>Calendar feed</h3><p>A sample schedule or iCal link showing checkout and next check-in times.</p></div>
+        <div class="flow-item"><span>2</span><h3>Cleaner contact</h3><p>The person who should reply DONE or PROBLEM during a turnover.</p></div>
+        <div class="flow-item"><span>3</span><h3>Owner alert</h3><p>The person who needs to know if silence becomes risky before check-in.</p></div>
+        <div class="flow-item"><span>4</span><h3>Honest feedback</h3><p>What felt useful, what felt fake, and what would need to change for a real trial.</p></div>
+      </div>
+    </section>
+
+    <section class="section split" id="data-note">
+      <div>
+        <p class="eyebrow">Data stance</p>
+        <h2>Minimum data, human-reviewed while it’s early.</h2>
+      </div>
+      <div class="prose">
+        <p>For a test, SanteStays only needs property labels, checkout/check-in times, cleaner contact, owner contact, and confirmation status. It does not need guest profiles, payment data, or guest messaging.</p>
+        <p>Production messaging should use WhatsApp Business Cloud API or a reputable provider. A friendly demo can use local message cards and manual sends while the workflow is being shaped.</p>
+      </div>
+    </section>
+
+    <section class="section cta-panel safi-cta">
+      <div>
+        <p class="eyebrow">For Ariz / friendly testers</p>
+        <h2>Help me break the fake bits before I turn it into a real product.</h2>
+        <p>This is the ask: look at the demo, tell me where it does not match real host life, and help shape what “useful” actually means.</p>
+      </div>
+      <a class="button primary" href="#demo-story">See the demo story</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>SanteStays is an Asante Labs project.</span>
+    <span>santestays.com · @santestays</span>
+  </footer>
+  <script src="./motion.js" defer></script>
+</body>
+</html>
