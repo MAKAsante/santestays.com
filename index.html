@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SanteStays — cleaner turnover peace of mind for short-stay hosts</title>
-  <meta name="description" content="SanteStays is a warm, WhatsApp-native cleaner confirmation demo for short-stay hosts: calendar reminders, DONE/PROBLEM replies, and owner alerts before check-in." />
+  <meta name="description" content="SanteStays helps short-stay hosts close the turnover loop: calendar-linked clean reminders, cleaner response tracking, owner alerts, and daily stay notifications before check-in." />
   <link rel="canonical" href="https://santestays.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="SanteStays" />
@@ -22,6 +22,7 @@
     </a>
     <nav>
       <a href="#how-it-works">How it works</a>
+      <a href="#pain-points">Pain removed</a>
       <a href="#demo-story">Workflow</a>
       <a href="#where-this-is-at">Where this is at</a>
       <a href="#host-needs">Setup</a>
@@ -34,7 +35,7 @@
       <div class="hero-copy">
         <p class="eyebrow">SanteStays · an Asante Labs project</p>
         <h1>Know the clean is sorted before the guest finds out.</h1>
-        <p class="lead">SanteStays watches the boring-but-critical handoff: checkout, cleaner reminder, DONE/PROBLEM reply, and a clear owner alert if the cleaner goes quiet before check-in.</p>
+        <p class="lead">SanteStays links to your booking calendar, reminds cleaners what needs doing, tracks DONE/PROBLEM replies, and alerts you before a missed clean becomes a guest problem.</p>
         <div class="actions">
           <a class="button primary" href="#demo-story">See the workflow</a>
           <a class="button secondary" href="#where-this-is-at">What’s real right now?</a>
@@ -46,7 +47,7 @@
         <div class="message bot-bubble">Hi Dana — Flat 2 checks out at 11:00 and the next guest arrives at 16:00. Please reply DONE once cleaned, or PROBLEM if there’s an issue.</div>
         <div class="message quiet-bubble">No reply by 13:00…</div>
         <div class="message warning">⚠️ Ariz — Flat 2 has no cleaning confirmation yet. Next guest arrives in 3 hours. Suggested action: call Dana now.</div>
-        <div class="message digest">Morning digest: 2 turnovers today · 1 all clear · 1 needs attention.</div>
+        <div class="message digest">Today: 2 stays · Flat 1 confirmed · Flat 2 needs attention before 16:00.</div>
       </aside>
     </section>
 
@@ -61,6 +62,36 @@
         <div class="flow-item"><span>3</span><h3>One-word reply</h3><p>DONE means sorted. PROBLEM means the owner hears about it now.</p></div>
         <div class="flow-item"><span>4</span><h3>Silence escalates</h3><p>No reply before check-in? The owner gets a clear alert while there’s still time to act.</p></div>
         <div class="flow-item"><span>5</span><h3>Owner digest</h3><p>A short daily summary: what’s confirmed, what needs attention.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="pain-points">
+      <div class="section-head">
+        <p class="eyebrow">Pain removed</p>
+        <h2>Less chasing, fewer surprises, cleaner handovers.</h2>
+        <p>SanteStays is designed around the bits hosts already hate: calendar checking, cleaner chasing, “did anyone reply?”, and remembering which stay needs attention today.</p>
+      </div>
+      <div class="pain-grid">
+        <article class="pain-card">
+          <span>Calendar checking</span>
+          <h3>Connect a booking calendar once.</h3>
+          <p>Use an iCal-style feed from tools like Airbnb, Booking.com, Google Calendar, or Apple Calendar where available. SanteStays turns stays into turnover tasks.</p>
+        </article>
+        <article class="pain-card">
+          <span>Cleaner chasing</span>
+          <h3>Automatic reminder prompts.</h3>
+          <p>Cleaners get clear WhatsApp-style reminders with the property, checkout, next check-in, and a simple DONE / PROBLEM reply path.</p>
+        </article>
+        <article class="pain-card">
+          <span>Silent risk</span>
+          <h3>No reply becomes visible.</h3>
+          <p>If a cleaner goes quiet, the owner gets an escalation while there is still time to call, reassign, or check the property.</p>
+        </article>
+        <article class="pain-card">
+          <span>Stay tracking</span>
+          <h3>Know today’s status at a glance.</h3>
+          <p>Track each turnover as pending, reminded, confirmed, problem, or escalated — with a daily digest of what is sorted and what needs attention.</p>
+        </article>
       </div>
     </section>
 
@@ -109,16 +140,17 @@
       </div>
     </section>
 
-    <section class="section" id="host-needs">
+    <section class="section setup-panel" id="host-needs">
       <div class="section-head">
-        <p class="eyebrow">What a host would need to test it</p>
-        <h2>Three simple ingredients.</h2>
+        <p class="eyebrow">Setup path</p>
+        <h2>Start from the tools hosts already use.</h2>
+        <p>No new cleaner app first. The pilot starts with the calendar and message habits already in the business, then adds tracking and alerts around them.</p>
       </div>
-      <div class="flow">
-        <div class="flow-item"><span>1</span><h3>Calendar feed</h3><p>A sample schedule or iCal link showing checkout and next check-in times.</p></div>
-        <div class="flow-item"><span>2</span><h3>Cleaner contact</h3><p>The person who should reply DONE or PROBLEM during a turnover.</p></div>
-        <div class="flow-item"><span>3</span><h3>Owner alert</h3><p>The person who needs to know if silence becomes risky before check-in.</p></div>
-        <div class="flow-item"><span>4</span><h3>Honest feedback</h3><p>What felt useful, what felt fake, and what would need to change for a real trial.</p></div>
+      <div class="setup-list">
+        <div><strong>1. Link the stay calendar</strong><p>Airbnb/Booking/PMS iCal feed, Google Calendar, Apple Calendar, or a simple exported schedule for the first test.</p></div>
+        <div><strong>2. Add the turnover people</strong><p>Cleaner contact, owner contact, property labels, default checkout/check-in times, and when silence should escalate.</p></div>
+        <div><strong>3. Run supervised for the pilot</strong><p>Messages are reviewed while the workflow is being shaped. Once it proves reliable, reminders can become more automatic.</p></div>
+        <div><strong>4. Track what happened</strong><p>Every stay gets a status: pending, reminded, DONE, PROBLEM, no reply, escalated, resolved.</p></div>
       </div>
     </section>
 
@@ -128,7 +160,7 @@
         <h2>Minimum data, human-reviewed while it’s early.</h2>
       </div>
       <div class="prose">
-        <p>For a test, SanteStays only needs property labels, checkout/check-in times, cleaner contact, owner contact, and confirmation status. It does not need guest profiles, payment data, or guest messaging.</p>
+        <p>For a test, SanteStays only needs property labels, checkout/check-in times, cleaner contact, owner contact, and confirmation status. It does not need guest profiles, payment data, payment access, or guest messaging.</p>
         <p>Production messaging should use WhatsApp Business Cloud API or a reputable provider. A friendly demo can use local message cards and manual sends while the workflow is being shaped.</p>
       </div>
     </section>
