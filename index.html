@@ -21,21 +21,22 @@
       <span>SanteStays</span>
     </a>
     <nav>
-      <a href="#demo-story">Demo</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#demo-story">Workflow</a>
       <a href="#where-this-is-at">Where this is at</a>
       <a href="#host-needs">Setup</a>
-      <a href="./index.html">Asante Labs</a>
+      <a href="#data-note">Data</a>
     </nav>
   </header>
 
   <main>
     <section class="hero safi-hero">
       <div class="hero-copy">
-        <p class="eyebrow">Sante by Asante Labs · early test build</p>
+        <p class="eyebrow">SanteStays · an Asante Labs project</p>
         <h1>Know the clean is sorted before the guest finds out.</h1>
         <p class="lead">SanteStays watches the boring-but-critical handoff: checkout, cleaner reminder, DONE/PROBLEM reply, and a clear owner alert if the cleaner goes quiet before check-in.</p>
         <div class="actions">
-          <a class="button primary" href="#demo-story">See the WhatsApp demo</a>
+          <a class="button primary" href="#demo-story">See the workflow</a>
           <a class="button secondary" href="#where-this-is-at">What’s real right now?</a>
         </div>
       </div>
@@ -47,6 +48,20 @@
         <div class="message warning">⚠️ Ariz — Flat 2 has no cleaning confirmation yet. Next guest arrives in 3 hours. Suggested action: call Dana now.</div>
         <div class="message digest">Morning digest: 2 turnovers today · 1 all clear · 1 needs attention.</div>
       </aside>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2>One loop, closed every turnover.</h2>
+      </div>
+      <div class="flow">
+        <div class="flow-item"><span>1</span><h3>Calendar watches</h3><p>The booking calendar shows today’s checkout and the next check-in.</p></div>
+        <div class="flow-item"><span>2</span><h3>Cleaner reminded</h3><p>The cleaner gets a friendly message with the times that matter.</p></div>
+        <div class="flow-item"><span>3</span><h3>One-word reply</h3><p>DONE means sorted. PROBLEM means the owner hears about it now.</p></div>
+        <div class="flow-item"><span>4</span><h3>Silence escalates</h3><p>No reply before check-in? The owner gets a clear alert while there’s still time to act.</p></div>
+        <div class="flow-item"><span>5</span><h3>Owner digest</h3><p>A short daily summary: what’s confirmed, what needs attention.</p></div>
+      </div>
     </section>
 
     <section class="section split" id="demo-story">
@@ -84,7 +99,11 @@
         <h2>This is an early build, not a pretend finished SaaS.</h2>
       </div>
       <div class="prose">
-        <p>The calendar reading and message generation are working locally. The demo can show a missed-clean escalation, a confirmed clean, and owner digest examples.</p>
+        <ul class="check-list">
+          <li>Calendar reading and message generation work locally today — real iCal in, real turnover messages out.</li>
+          <li>The full WhatsApp-style flow is demoable: missed-clean escalation, confirmed clean, and owner digest. Ask for a walkthrough.</li>
+          <li>Production WhatsApp Business API is the next step — after the workflow is validated with a real host.</li>
+        </ul>
         <p>The next useful step is testing it with someone who can say, honestly, “that is how it happens” or “no, this bit is fake.” Feedback shapes the product before it becomes a paid service.</p>
         <p><strong>No fake testimonials. No made-up client logos. No “AI platform” theatre.</strong> Just a narrow workflow, shown clearly.</p>
       </div>
@@ -120,13 +139,13 @@
         <h2>Help me break the fake bits before I turn it into a real product.</h2>
         <p>This is the ask: look at the demo, tell me where it does not match real host life, and help shape what “useful” actually means.</p>
       </div>
-      <a class="button primary" href="#demo-story">See the demo story</a>
+      <a class="button primary" href="#demo-story">See the workflow story</a>
     </section>
   </main>
 
   <footer>
     <span>SanteStays is an Asante Labs project.</span>
-    <span>santestays.com · @santestays</span>
+    <span>santestays.com</span>
   </footer>
   <script src="./motion.js" defer></script>
 </body>
